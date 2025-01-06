@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+header img{
+    width: 40px;
+}
+
+header p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header button{
+    border: none;
+    background-color: transparent;
+}
