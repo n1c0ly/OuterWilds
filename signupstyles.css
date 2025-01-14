@@ -61,7 +61,7 @@ form h1{
 {
 top: -20px;
 left: 0;
-color: aquamarine;
+color: rgb(193, 255, 234);
 font-size: 12px;
 }
 
@@ -86,7 +86,7 @@ font-size: 12px;
 }
 
 .button:hover{
-    background: rgb(0, 174, 255);
+    background: rgba(15, 52, 70, 0);
     border-radius: 5px;
     color: black;
 }
@@ -96,44 +96,12 @@ font-size: 12px;
     position: absolute;
 }
 
-.button span:nth-child(1){
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, transparent, rgb(0, 174, 255));
-    animation: button1 1s linear infinite;
-}
 
-@keyframes button1{
-    0%{
-        left: -100%;
-    }
-    50%,
-    100%{
-        left: 100%;
-    }
-}
 
-.button span :nth-child(2){
-    top: -100%;
-   right: 0;
-   width: 4px;
-   height: 100%;
-   background: linear-gradient(180deg, transparent, rgb(0, 174, 255));
-   animation: button2 1s linear infinite;
-   animation-delay: .10s;
-}
 
-@keyframes button2{
-    0%{
-        top: -100%;
-    }
-    50%, 
-    100%{
-        top: 100%;
-    }
-}
+
+
+
 
 
 body{
