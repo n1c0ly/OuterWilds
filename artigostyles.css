@@ -206,6 +206,7 @@ main{
     flex-direction: row;
     width: 100%;
     padding-top: 100px;
+    border-radius: 20px;
    
 }
 
@@ -213,25 +214,32 @@ main{
     display: flex;
     align-items: center;
     justify-content: start;
-    background: transparent; /* Fundo transparente */
-    border: 2px solid; /* Definindo a espessura do contorno */
+    background: transparent; 
+    border: 2px solid; 
     gap: 50px;
-    border-image: linear-gradient(45deg, rgba(249, 106, 18, 1), rgba(129, 85, 0, 1),rgba(227, 179, 60, 1),rgba(55, 255, 45, 1)) 1; /* Degradê no contorno */
-    color: #333; /* Cor do texto */
-    padding: 10px 20px; /* Padding interno */
+    border-image: linear-gradient(45deg, rgba(249, 106, 18, 1), rgba(129, 85, 0, 1),rgba(227, 179, 60, 1),rgba(55, 255, 45, 1)) 1; 
+    padding: 10px 20px; 
     font-size: 16px;
     cursor: pointer;
     text-transform: uppercase;
     transition: all 0.3s ease; 
     width: 100%;
+   height: 180px;
 }
+
+
+
+.botao button:hover {
+    background-color: rgba(255, 166, 0, 0.144); /* Fundo sutil quando passa o mouse */
+  }
 
 .botao button img{
     width: 120px;
     border-radius: 20px;
 }
 
-.botao button p{
+.botao button a{
+    color:rgba(255, 124, 54, 1) ;
     display: flex;
     align-items: center;
     justify-content: center;
