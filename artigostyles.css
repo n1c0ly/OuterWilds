@@ -198,3 +198,50 @@ main{
     line-height: 80px;
     width: 100%;
 }
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 100px;
+   
+}
+
+.botao button{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: transparent; /* Fundo transparente */
+    border: 2px solid; /* Definindo a espessura do contorno */
+    gap: 50px;
+    border-image: linear-gradient(45deg, rgba(249, 106, 18, 1), rgba(129, 85, 0, 1),rgba(227, 179, 60, 1),rgba(55, 255, 45, 1)) 1; /* Degradê no contorno */
+    color: #333; /* Cor do texto */
+    padding: 10px 20px; /* Padding interno */
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease; 
+    width: 100%;
+}
+
+.botao button img{
+    width: 120px;
+    border-radius: 20px;
+}
+
+.botao button p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spotify{
+    gap: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
