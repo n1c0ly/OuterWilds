@@ -1,6 +1,104 @@
-header button img{
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+
+header button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
+
+}
+
+header button img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30px;
     height: 30px;
     border: none;
+    
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 150px;
+    
+}
+
+header p{
+    font-family: "Alatsi", serif;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 20px;
+}
+
+body{
+   
+    background-color: black;
+}
+
+main h1{
+    font-size: 60px;
+    line-height: 100px;
+    width: 800px;
+    padding-left: 100px;
+    font: bold;
+    color: rgba(255, 124, 54, 1);
+}
+
+main p{
+    font-family: "Molengo", serif;
+    font-size: 20px;
+    color: rgba(255, 124, 54, 1);
+    padding-left: 100px;
+    letter-spacing: 2px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.jogo{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.jogo h1{
+    font-size: 25px;
+    color: rgba(255, 124, 54, 1);
+}
+.jogo p{
+    font-size: 20px;
+    line-height: 50px;
+    width: 550px;
+    color: rgba(255, 124, 54, 1);
+}
+
+.pedra{
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pedra img{
+   
+    width: 500px;
+    height: 400px;
 }
