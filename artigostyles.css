@@ -45,15 +45,23 @@ header p{
 }
 
 body{
-   
+   padding-left: 150px;
+   padding-right: 150px;
     background-color: black;
 }
 
+body h1{
+    color: rgba(255, 124, 54, 1);
+}
+body p{
+    color: rgba(255, 124, 54, 1);  
+}
+
 main h1{
-    font-size: 60px;
-    line-height: 100px;
-    width: 800px;
-    padding-left: 100px;
+    font-size: 80px;
+    line-height: 200px;
+    width: 1000px;
+    /* padding-left: 100px; */
     font: bold;
     color: rgba(255, 124, 54, 1);
 }
@@ -62,7 +70,7 @@ main p{
     font-family: "Molengo", serif;
     font-size: 20px;
     color: rgba(255, 124, 54, 1);
-    padding-left: 100px;
+    /* padding-left: 100px; */
     letter-spacing: 2px;
 }
 
@@ -75,30 +83,118 @@ main{
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 300px;
+    /* padding-left: 150px; */
 }
 
 .jogo h1{
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(255, 124, 54, 1);
 }
 .jogo p{
-    font-size: 20px;
-    line-height: 50px;
-    width: 550px;
+    font-size: 30px;
+    line-height: 80px;
+    width: 650px;
+    
     color: rgba(255, 124, 54, 1);
 }
 
 .pedra{
-    gap: 100px;
+    gap: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .pedra img{
+   border-radius: 20px;
+  width: 700px; 
    
-    width: 500px;
-    height: 400px;
+}
+
+.expo{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 300px;  
+}
+
+.expo h1{
+    font-size: 35px; 
+}
+
+.expo p{
+    font-size: 30px;
+    line-height: 80px;
+    width: 100%;
+}
+
+.loop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 300px;  
+    gap: 150px;
+}
+
+.loop img{
+   
+    width: 700px;
+}
+
+
+
+.temporal h1{
+    padding-bottom: 40px;
+    font-size: 35px;   
+}
+
+.temporal p{
+    width: 650px;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.planetas img{
+    width: 100%;
+    padding-top: 300px;
+    border-radius: 20px;
+}
+
+.sistema{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 300px;  
+}
+
+.sistema h1{
+    font-size: 35px; 
+}
+
+.sistema p{
+    font-size: 30px;
+    line-height: 80px;
+    width: 100%;
+}
+
+.graficos{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 300px;  
+}
+
+.graficos h1{
+    font-size: 35px; 
+}
+
+.graficos p{
+    font-size: 30px;
+    line-height: 80px;
+    width: 100%;
 }
